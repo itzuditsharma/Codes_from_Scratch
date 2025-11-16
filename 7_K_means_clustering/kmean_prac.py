@@ -43,6 +43,8 @@ class Kmeans:
             new_centroids.append(X[cluster_group == type].mean(axis = 0))
 
         return np.array(new_centroids)
+    
+    
   
 
 
